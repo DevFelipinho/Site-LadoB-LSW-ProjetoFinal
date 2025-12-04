@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "img": "thep.png",
+      "titulo": "The Police - Outlandos d' Amour (1979) - Vinil LP Primeira Impressão",
+      "condicao": "Condição: Usado",
+      "preco": "R$ 299,99"
+    },
+    {
+      "img": "cbjr.png",
+      "titulo": "Charlie Brown Jr. - Transpiração Contínua Prolongada (1997) - CD",
+      "condicao": "Condição: Novo (Lacrado)",
+      "preco": "R$ 119,99"
+    },
+    {
+      "img": "michael.png",
+      "titulo": "Michael Jackson - Dangerous (1991) - Vinil LP",
+      "condicao": "Condição: Novo (Lacrado)",
+      "preco": "R$ 569,99"
+    },
+    {
+      "img": "queen.png",
+      "titulo": "Queen - Greatest Hits (1981) - CD",
+      "condicao": "Condição: Usado",
+      "preco": "R$ 229,99"
+    },
+    {
+      "img": "rita.png",
+      "titulo": "Rita Lee Tutti Frutti - Fruto Proibido (1986) - Fita Cassete",
+      "condicao": "Condição: Novo (Lacrado)",
+      "preco": "R$ 419,99"
+    },
+    {
+      "img": "titas.png",
+      "titulo": "Titãs - Cabeça Dinossauro (1986) - Vinil LP",
+      "condicao": "Condição: Usado",
+      "preco": "R$ 219,99"
+    },
+    {
+      "img": "walkman.png",
+      "titulo": "Sony Walkman TPS-L2 (1979) + Sony MDR-80",
+      "condicao": "Condição: Usado (Restaurado)",
+      "preco": "R$ 5499,99"
+    },
+    {
+      "img": "discman.png",
+      "titulo": "Sony Discman D-183 (1984)",
+      "condicao": "Condição: Usado",
+      "preco": "R$ 499,99"
+    },
+    {
+      "img": "vitrola.png",
+      "titulo": "Vitrola portátil Philips GF-523 (1976)",
+      "condicao": "Condição: Usado (Restaurado)",
+      "preco": "R$ 799,99"
+    },
+    {
+      "img": "panasonic.png",
+      "titulo": "Panasonic SG-H10 Stereo Music System (1990)",
+      "condicao": "Condição: Usado",
+      "preco": "R$ 3599,99"
+    },
+    {
+      "img": "boombox.png",
+      "titulo": "QFX J-220BT Boombox (1980)",
+      "condicao": "Condição: Usado (Restaurado)",
+      "preco": "R$ 699,99"
+    },
+    {
+      "img": "sony.png",
+      "titulo": "Sony CD Walkman D-EJ750 (2003)",
+      "condicao": "Condição: Novo (Lacrado)",
+      "preco": "R$ 949,99"
+    }
+  ]
+}

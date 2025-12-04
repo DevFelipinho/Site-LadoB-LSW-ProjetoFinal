@@ -1,0 +1,1059 @@
+body
+{
+    background: linear-gradient(#ffb77d, #ffc799, #ffc799, #ffb77d);
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1
+{
+    text-align: center;
+}
+
+p   
+{
+   text-align: center;
+}
+
+header
+{
+    padding : 20px;
+    padding-bottom: 70px;
+    border : 5px solid #684221;
+    border-radius: 50px;
+    color:#ffd3af;
+    background:rgb(0, 0, 0);
+    margin : 20px;
+    margin-bottom: 50px;
+    font-family: "Frijole", system-ui;
+}
+
+.caixacabeça
+{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#ladob
+{
+    text-align: left;
+    position: relative;
+    bottom : 55px;
+    font-size: 50px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.1s all;
+}
+
+#ladob:hover
+{
+    transform: scale(1.05);
+}
+
+#ladob a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd3af;
+}
+
+#ladob a:hover
+{
+    color: #b6977d;
+}
+
+#ladob a:active
+{
+    color: #ffddc2;
+}
+
+.artigos
+{
+    position: absolute;
+    top: 120px;
+    transition: 0.1s all;
+}
+
+.artigos:hover
+{
+    transform: scale(1.05);
+}
+
+.artigos a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd3af;
+}
+
+.artigos a:hover
+{
+    color: #b6977d;
+}
+
+.artigos a:active
+{
+    color: #ffddc2;
+}
+
+#vinil
+{
+    height : 160px;
+    position: relative;
+    left: 20px;
+    top:5px;
+    transition: 0.1s all;
+}
+
+#vinil:hover
+{
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.nave
+{
+    position: absolute;
+    right:25px;
+    top : 203px;
+}
+
+.nave li
+{
+    display: inline;
+}
+
+.nave a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd3af;
+    padding: 15px;
+    transition: 0.1s all;
+}
+
+.nave a:hover
+{
+    color: #311400;
+    background: white;
+    border-radius: 30px 30px 0 0;
+}
+
+.nave a:active
+{
+    color: #000000;
+    background: rgb(255, 76, 76);
+}
+
+.nave li ul
+{
+    position: absolute;
+    top: 34px;
+    left: 235px;
+    border: 5px solid #684221;
+    background-color: white;
+    display: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nave li .navesobre
+{
+    position: absolute;
+    top: 34px;
+    left: 565px;
+    border: 5px solid #684221;
+    background-color: white;
+    display: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nave li ul .lia
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #311400;
+    padding: 9px 212px 9px 10px;
+    transition: 0.1s all;
+}
+
+.nave li ul .lib
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #311400;
+    padding: 9px 154px 9px 10px;
+    transition: 0.1s all;
+}
+
+.nave li ul .lic
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #311400;
+    padding: 9px 28px 9px 10px;
+    transition: 0.1s all;
+}
+
+.nave li ul .lid
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #311400;
+    padding: 9px 44.5px 9px 10px;
+    transition: 0.1s all;
+}
+
+.nave li ul .lie
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #311400;
+    padding: 9px 204px 9px 10px;
+    transition: 0.1s all;
+}
+
+.nave li ul .lif
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #311400;
+    padding: 9px 234px 9px 10px;
+    transition: 0.1s all;
+}
+
+.nave li ul a:hover
+{
+    color: #ffd3af;
+    background: black;
+    border-radius: 0px 0px 0 0;
+}
+
+.nave li ul .lic:hover
+{
+    color: #ffd3af;
+    background: black;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.nave li ul .lif:hover
+{
+    color: #ffd3af;
+    background: black;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.nave li ul a:active
+{
+    color: #000000;
+    background: rgb(255, 76, 76);
+}
+
+.nave li ul .lic:active
+{
+    color: #000000;
+    background: rgb(255, 76, 76);
+}
+
+.nave li ul .lif:active
+{
+    color: #000000;
+    background: rgb(255, 76, 76);
+}
+
+.nave li:hover ul
+{
+    display: block;
+}
+
+.nave li ul li
+{
+    display: block;
+    width: 352px;
+    padding: 12px 0px;
+}
+
+.linhac
+{
+    border: 1px solid #684221;
+    padding: 0 175px 0 175px;
+}
+
+.caixamain
+{
+    text-align: center;
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.caixamainl
+{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.secao
+{
+    background: #d4a883;
+    border-radius: 10px;
+    border: 5px solid #381b00;
+}
+
+form
+{
+    margin: 30px 0 80px 0;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    border: 5px solid #684221;
+}
+
+form input
+{
+    display: block;
+    margin: 7px 0 0px 0;
+    padding: 10px 20px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid #684221;
+    transition: 0.1s all;
+}
+
+form input:hover
+{
+    opacity: 0.8;
+}
+.entrar
+{
+    display: block;
+    margin: 7px 0 0px 20px;
+    padding: 13px 20px;
+    width: 90%;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Federo", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    border: 5px solid #2e7896;
+    background: #78f6ff;
+    transition: 0.1s all;
+    cursor: pointer;
+}
+
+.entrar:hover
+{
+    border: 5px solid #00471d;
+}
+
+.entrar:active
+{
+    border: 5px solid #119200;
+    color: #119200;
+}
+
+form label
+{
+    display: block;
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+    padding: 20px 20px 20px 23px;
+}
+
+#semconta
+{
+    margin: 0 0 25px 0;
+    font-size: 17px;
+}
+
+#semconta a
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #6f6dff;
+    padding: 10px;
+}
+
+#semconta a:hover
+{
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #6f6dff;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#semconta a:active
+{
+    color: red;
+}
+
+#busca
+{
+    display: inline-block;
+    margin: 0px 500px 30px 360px;
+    width: 40%;
+    padding: 18px 25px;
+    font-size: 22px;
+    border: 4px solid #684221;
+    border-radius: 15px;
+    outline: none;
+    background: #fff4e7;
+    transition: 0.2s all;
+    font-family: "Federo", sans-serif;
+}
+
+#busca::placeholder 
+{
+    color: #301f11;
+    letter-spacing: 1px;
+}
+
+#busca:hover 
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    transform: scale(1.02);
+}
+
+#busca:focus 
+{
+    background: #fff1e0;
+    border-color: #2e1600;
+    box-shadow: 0 0 12px rgba(70,40,10,0.5);
+}
+
+.destaquest
+{
+    color:#180b00;
+    border: 10px double rgb(0, 0, 0);
+    border-radius: 20px;
+    display :inline-block;
+    padding: 10px;
+    font-size: 50px;
+    margin: 30px 0 30px 0;
+}
+
+.destaquestr
+{
+    color:#180b00;
+    border: 10px double rgb(0, 0, 0);
+    border-radius: 20px;
+    display :inline-block;
+    padding: 10px;
+    font-size: 50px;
+    margin: 90px 370px 30px 370px;
+}
+
+.destaques
+{
+    padding: 50px 0;
+}
+
+.destaques li
+{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    background: white;
+    margin: 30px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 4px solid #684221;
+    border-radius: 10px;
+    transition: 0.1s all;
+}
+
+.destaques li:hover
+{
+    box-shadow: 10px 10px 10px 0 #3d2713;
+    transform: scale(1.05);
+}
+
+.destaques img
+{
+    height: 350px;
+    border-bottom: 3px solid #2e1600;
+    margin-bottom: 10px;
+}
+
+.destaques p
+{
+    font-weight: bold;
+}
+
+.titulo
+{
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+.condição
+{
+    font-size: 19px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    padding: 15px 0;
+}
+
+.preço
+{
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+.comprar
+{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+    background: #000000;
+    color: white;
+    padding: 25px 15px;
+    border-radius: 10px;
+    transition: 0.1s all;
+}
+
+.comprar:hover
+{
+    box-shadow: 3px 3px 3px 0 #7c7c7c;
+    transform: scale(1.05);
+    color: lightgray;
+}
+
+.comprar:active
+{
+    box-shadow: 3px 3px 3px 0 #16bb00;
+    color:#16bb00;
+}
+
+.adicionar
+{
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+    top: 25px;
+    background: #000000;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+    transition: 0.1s all;
+}
+
+.adicionar:hover
+{
+    box-shadow: 3px 3px 3px 0 #7c7c7c;
+    transform: scale(1.05);
+    color: lightgray;
+}
+
+.adicionar:active
+{
+    box-shadow: 3px 3px 3px 0 #16bb00;
+    color: #16bb00;
+}
+
+.vermais
+{
+    margin: 40px 0 40px 0;
+    display: inline-block;
+}
+
+.vermais:hover
+{
+    transform: scale(1.05);
+}
+
+.vermais a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+    color: #ffd3af;
+    padding: 15px;
+    background-color: #3a1c00;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 4px solid black;
+    transition: 0.1s all;
+}
+
+.vermais a:hover
+{
+    color: rgb(49, 20, 0);
+    background: white;
+    border-color: #684221;
+}
+
+.vermais a:active
+{
+    color: #16bb00;
+    background: white;
+    border-color: #16bb00;
+}
+
+.pergunta
+{
+    background: #1d0e00;
+    color: #ffeee0;
+    text-align: left;
+    padding:15px 30px 15px 30px;
+    margin-top: 35px;
+    border-radius: 10px 10px 0 0;
+    border: 5px solid #684221;
+    width: 90%;
+    display: inline-block;
+}
+
+.linha
+{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 0 300px 0 300px;
+}
+
+.resposta
+{
+    font-size: 25px;
+    background: white;
+    color: black;
+    text-align: left;
+    margin-bottom: 35px;
+    padding:25px 30px 25px 30px;
+    border-radius: 0 0 10px 10px;
+    border: 5px solid #684221;
+    border-top: none;
+    width: 90%;
+    display: inline-block;
+}
+
+.textocriador
+{
+    font-size: 22px;
+    text-align: left;
+    display: inline-block;
+    width: 30%;
+    margin: 50px 80px 0 0;
+    vertical-align: top;
+    padding: 20px;
+    background: white;
+    border: 5px solid #684221;
+    border-radius: 10px;
+}
+
+.textocriador a
+{
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+    color: #221fff;
+}
+
+.textocriador a:hover
+{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.textocriador a:active
+{
+    color: red;
+}
+
+.criador
+{
+    width: 38.5%;
+    margin: 50px 0 50px 80px;
+    padding: 10px;
+    background: black;
+    vertical-align: top;
+    border: 5px solid #684221;
+    border-radius: 10px;
+}
+
+.youtube
+{
+    width: 10%;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.hq
+{
+    background: radial-gradient(white, black 80%);
+    width: 60%;
+    position: relative;
+    border: 5px solid #684221;
+    border-radius: 10px;
+    margin-top: 20px;
+    left:250px;
+    margin-bottom: 30px;
+}
+
+iframe
+{
+    transition: 0.1s all;
+}
+
+iframe:hover
+{
+    opacity: 0.8;
+}
+
+.contato
+{
+    font-size: 30px;
+    background: white;
+    color: black;
+    display: inline-block;
+    padding: 30px;
+    margin: 50px 0 50px 0;
+    border: 5px solid #684221;
+    border-radius: 10px;
+    display: inline-block;
+    width: 45%;
+}
+
+.carrinhoImg
+{
+    height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.carrinhoTxt
+{
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    bottom: 115px;
+    font-weight: bold;
+}
+
+.caixacarrinho
+{
+    background-color: white;
+    border: 5px solid #684221;
+    border-radius: 10px;
+    padding: 50px 0 50px 0;
+    transition: 0.1s all;
+}
+
+.caixamainc
+{
+    text-align: center;
+    width: 900px;
+    margin: 70px auto;
+}
+
+.caixacarrinho:hover
+{
+    box-shadow: 10px 10px 10px 0 #3d2713;
+    transform: scale(1.05);
+}
+
+
+footer
+{
+    margin: 50px 0px 0px 0px;
+    padding : 15px;
+    border : 5px solid #684221;
+    color:#ffd3af;
+    background:black;
+    text-align: center;
+}
+
+.caixape
+{
+    position: relative;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#copy
+{
+    position:relative;
+    bottom: 40px;
+    font-size: 20px;
+    display: inline-block;
+    padding-right:20px ;
+}
+
+#negresco
+{
+    height: 110px;
+    cursor: help;
+    transition: 20s all;
+}
+
+#negresco:hover
+{
+    transform: scale(1.25);
+}
+
+#ng
+{
+    text-align: center;
+}
+
+#ng img
+{
+    width: 61%;
+    border: 5px solid #684221;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+
+#ng a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd3af;
+    padding: 15px;
+    background-color: #684221;
+    font-size: 25px;
+    transition: 0.1s all;
+    border: 5px solid #2e1600;
+    border-radius: 10px;
+}
+
+#ng a:hover
+{
+    color: rgb(49, 20, 0);
+    background: white;
+}
+
+@media screen and (max-width: 480px)
+{
+    .caixamain, .caixape
+    {
+        width: auto;
+    }
+    .caixamainl
+    {
+        width: 400px;
+    }
+
+    .caixamainc
+    {
+        width: 95%;
+    }
+
+    .carrinhoImg
+    {
+        height: 200px;
+        width: 200px;
+    }
+
+    .carrinhoTxt
+    {
+        font-size: 30px;
+        top: 10px;
+    }
+
+    .destaques img
+    {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .destaques, .destaquest
+    {
+        font-size: 40px;
+    }
+
+    .destaques li
+    {
+        display: inline-block;
+        width: 90%;
+        vertical-align: top;
+        background: white;
+        margin: 15px 1.5%;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        border: 4px solid #684221;
+        border-radius: 10px;
+        transition: 0.1s all;
+    }
+    .secao
+    {
+        width: 95%;
+        position: relative;
+        left: 5.5px;
+        margin: 10px 0 30px 0;
+    }
+
+    .comprar
+    {
+        left: 30px;
+    }
+
+    .adicionar
+    {
+        left: 45px;
+    }
+
+    #negresco
+    {
+        height: 100px;
+    }
+
+    #vinil
+    {
+        height: 118px;
+        width: 118px;
+        top: 0px;
+    }
+
+    #ladob
+    {
+        text-align: left;
+        position: relative;
+        bottom : 50px;
+        font-size: 37px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        transition: 0.1s all;
+    }
+
+    .artigos
+    {
+        font-size: 13px;
+        top: 80px;
+    }
+
+    .caixacabeça
+    {
+        width: 95%;
+        margin: 0;
+    }
+
+    header
+    {
+        margin: 20px 5px 20px 5px;
+        border-radius: 25px;
+    }
+
+    .nave
+    {
+        position: absolute;
+        right: 0px;
+        top : 161px;
+    }
+
+    .nave a
+    {
+        padding: 15px 1px;
+        font-size: 8.9px;
+    }
+
+    .nave li:hover ul
+    {
+        display: none;
+    }
+
+    .destaquestr
+    {
+        color:#180b00;
+        border: 10px double rgb(0, 0, 0);
+        border-radius: 20px;
+        display :inline-block;
+        padding: 10px;
+        font-size: 50px;
+        margin: 30px 0 30px 0;
+        width: 70%;
+    }
+
+    .caixamainc
+    {
+        margin: 70px auto 120px auto;
+    }
+
+    #ng img
+    {
+        width: 95%;
+    }
+
+    .pergunta
+    {
+        width: 75%;
+    }
+
+    .linha
+    {
+        padding: 0 150px 0 150px;
+    }
+
+    .resposta
+    {
+        width: 75%;
+    }
+
+    .textocriador
+    {
+        width: 80%;
+        margin: 570px 0px 0 0;
+    }
+
+    .criador
+    {
+        width: 85%;
+        margin: 50px 0 50px 0px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .hq
+    {
+        margin-top: 50px;
+        width: 93%;
+        left:9px;
+    }
+
+    .contato
+    {
+        display: inline-block;
+        padding: 30px;
+        margin: 50px 0 50px 0;
+        border: 5px solid #684221;
+        border-radius: 10px;
+        display: inline-block;
+        width: 77%;
+    }
+}
